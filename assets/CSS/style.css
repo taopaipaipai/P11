@@ -1,0 +1,61 @@
+/*
+ Theme Name:   motachildZ
+ Theme URI:    http://www.google.fr/
+ Author:       Zou
+ Author URI:   http://www.google.fr/
+ Text Domain:  motachildZ
+
+*/
+:root {
+  --vitesse: 3s;
+  --vitesseFleurs: 5s;
+}
+
+.mainContainer {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.ContenaireHeader {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 5%;
+  align-items: center;
+}
+
+.cssHeader {
+  font-weight: 800;
+  color: #3B8E46;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.cssFooter {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid black;
+  padding-top: 1%;
+  gap: 2%;
+}
+
+/*# sourceMappingURL=style.css.map */

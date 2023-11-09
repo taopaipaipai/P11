@@ -1,0 +1,23 @@
+﻿/*
+ Theme Name:   motachildZ
+ Theme URI:    http://www.google.fr/
+ Author:       Zou
+ Author URI:   http://www.google.fr/
+ Text Domain:  motachildZ
+
+*/
+
+//variables globale
+
+:root{
+    --vitesse : 3s;
+    --vitesseFleurs : 5s;
+}
+
+// import des mixins
+//@import "mixins/keyframes";
+
+// import des partiels
+@import "partiels/general";
+@import "partiels/header";
+@import "partiels/footer";
