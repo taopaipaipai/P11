@@ -1,5 +1,6 @@
 ﻿	<footer>
 
+    <nav>
 			<?php
 			wp_nav_menu(
 				array(
@@ -9,9 +10,11 @@
 				)
 			);
 			?>
-
-	</footer> 
-</div> 
+			
+			<?php get_template_part('template-parts/modale'); ?>
+    </nav>
+    	
+	</footer>
 
 <?php wp_footer(); ?>
 

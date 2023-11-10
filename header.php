@@ -3,21 +3,23 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!--
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+	-->
+	
 	<?php wp_head(); ?>
 </head>
 
 <body class="mainContainer">
 <?php wp_body_open(); ?>
 
-<div >
-	<header >
+	<header>
 		
 	 <div class="ContenaireHeader">
 
-		<div class="logo">
+		<div>
 			<a href="<?php echo home_url('/'); ?>">
 				<img src="<?php echo get_stylesheet_directory_uri() . '/assets/images/Logo.png'; ?>" alt="Logo">
 			</a>
@@ -35,6 +37,7 @@
 			);
 			?>
 
-		</nav><!-- #site-navigation -->
+		</nav>
+		
 	 </div>
-	</header><!-- #masthead -->
+	</header>

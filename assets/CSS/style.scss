@@ -7,17 +7,21 @@
 
 */
 
-//variables globale
+// import des fonts google
+@import "partiels/fontGoogle";
 
+//variables globale
 :root{
-    --vitesse : 3s;
-    --vitesseFleurs : 5s;
+
 }
 
 // import des mixins
-//@import "mixins/keyframes";
+//@import "mixins/DDDD";
 
 // import des partiels
 @import "partiels/general";
 @import "partiels/header";
 @import "partiels/footer";
+@import "partiels/modale";
+@import "partiels/formulaire";
+
