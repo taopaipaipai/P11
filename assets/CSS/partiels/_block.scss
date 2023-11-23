@@ -1,0 +1,87 @@
+
+/* CSS pour la partie Block */
+
+h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 85%;
+	height: 10%;
+	font-family: "space_monobold_italic", sans-serif;
+	font-style: italic;
+	font-weight: 700;
+	font-size: 6vw;
+	line-height: 10vh;
+	text-transform: uppercase;
+	color: transparent;
+	-webkit-text-stroke: 3px #ffffff;
+	-webkit-text-fill-color: transparent;
+	z-index: 1;
+	
+	animation: AnimationVersHaut 2s;
+
+	@media screen and (max-width: 770px) {
+	-webkit-text-stroke: 1px #ffffff;
+	}
+}
+
+.blockCatalogue {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	justify-content: center;
+	margin-top: 43px;
+	gap: 10px;
+	}
+
+@media screen and (max-width: 770px) {
+  #categorie {
+  	margin-right: 270px;
+  }
+}
+
+#format {
+	margin-left: -270px;
+}
+
+// Photo apparentee
+
+.PhotoSimilaire {
+	margin:0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+
+	@media screen and (max-width: 765px) {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.blockPhotoRelative {
+	flex-shrink: 0;
+	position: relative;
+	width: 564px;
+	height: 495px;
+	margin-bottom: 10px;
+	@media screen and (min-width: 765px) and (max-width: 1140px){
+		width: 370px;
+	}
+	@media screen and (max-width: 765px) {
+		width: 318px;
+		height: 279px;
+	}
+
+	& img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+
+	.overlay:hover .eye-icon,
+	.overlay:hover .fullscreen-icon {
+		display: block;
+	}
+}
