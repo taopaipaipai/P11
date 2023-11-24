@@ -34,6 +34,9 @@ function script_JS_Custo() {
     // Gestion des Filtres (script JQuery)
     wp_enqueue_script('FiltresJS', get_stylesheet_directory_uri() . '/assets/js/Filtres.js', array('jquery'), '1.0.0', true);
 
+    // Gestion de la LightBox (script JQuery)
+    wp_enqueue_script('LightBoxJS', get_stylesheet_directory_uri() . '/assets/js/LightBox.js', array('jquery'), '1.0.0', true);
+
     // Chargement de plus d'images avec Ajax (script JQuery)
     wp_enqueue_script('Ajax-charge-plus-images', get_stylesheet_directory_uri() . '/assets/js/Ajax-charge-plus-images.js', array('jquery'), '1.0.0', true);
 
