@@ -12,7 +12,7 @@
         ?>
         
         <?php get_template_part('template-parts/modale'); ?>
-
+        <?php get_template_part('template-parts/lightbox'); ?>
 
 </nav>
     
